@@ -10,4 +10,10 @@ describe("Test del login", () => {
     cy.url().should("include", "/inventory.html");
     cy.get(productsPage.productsContainer).should("exist");
   });
+
+  it("iniciar sesión dejando campos vacíos en el formulario", () => {
+    cy.visit("/");
+    login.login(" ", " ");
+    cy.get(login.errorMessage).should("exist");
+  });
 });
