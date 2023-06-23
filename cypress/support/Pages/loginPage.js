@@ -3,6 +3,7 @@ class Login {
     this.loginInput = "#user-name";
     this.passInput = "#password";
     this.loginBtn = "#login-button";
+    this.errorMessage = ".error-message-container h3";
   }
 
   login(username, password) {
