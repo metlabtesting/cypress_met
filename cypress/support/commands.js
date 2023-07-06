@@ -30,3 +30,4 @@ Cypress.Commands.add("login", (username, password) => {
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+import "cypress-xpath";

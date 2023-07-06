@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/dbquiroga/cypress_saucedemo#readme",
   "devDependencies": {
-    "cypress": "^10.3.0"
+    "cypress": "^10.3.0",
+    "cypress-xpath": "^2.0.1"
   }
 }
