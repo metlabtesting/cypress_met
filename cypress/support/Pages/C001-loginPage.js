@@ -1,9 +1,8 @@
 class Login {
   constructor() {
-    this.loginInput = "#user-name";
+    this.loginInput = "#userid";
     this.passInput = "#password";
-    this.loginBtn = "#login-button";
-    this.errorMessage = ".error-message-container h3";
+    this.loginBtn = "#btnActive";
   }
 
   login(username, password) {
@@ -14,4 +13,4 @@ class Login {
   }
 }
 
-export const login = new Login();
+export const loginPage = new Login();
