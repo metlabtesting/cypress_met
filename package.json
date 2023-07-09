@@ -1,0 +1,24 @@
+{
+  "name": "cypress_saucedemo",
+  "version": "1.0.0",
+  "description": "Practices with souce demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbquiroga/cypress_saucedemo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dbquiroga/cypress_saucedemo/issues"
+  },
+  "homepage": "https://github.com/dbquiroga/cypress_saucedemo#readme",
+  "devDependencies": {
+    "cypress": "^10.3.0",
+    "cypress-xpath": "^2.0.1"
+  }
+}
